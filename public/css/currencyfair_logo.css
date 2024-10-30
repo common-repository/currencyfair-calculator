@@ -1,0 +1,26 @@
+/*
+ * Copyright 2016 CurrencyFair - www.currencyfair.com
+ * CSS File - Wordpress Plugin v1.0.0
+ * Author: CurrencyFair
+ */
+
+@font-face {
+    font-family: 'currencyfair';
+    src:    url('fonts/currencyfair.eot?watu7');
+    src:    url('fonts/currencyfair.eot?watu7#iefix') format('embedded-opentype'),
+        url('fonts/currencyfair.ttf?watu7') format('truetype'),
+        url('fonts/currencyfair.woff?watu7') format('woff'),
+        url('fonts/currencyfair.svg?watu7#currencyfair') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+#adminmenu #toplevel_page_currencyfair-main .menu-icon-generic div.wp-menu-image:before {
+    font-family: currencyfair;
+    content: '\1f4b1';
+}
+
+#available-widgets [class*=currencyfair] .widget-title:before {
+    font-family: currencyfair;
+    content: '\1f4b1';
+}

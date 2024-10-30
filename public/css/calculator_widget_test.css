@@ -1,0 +1,10 @@
+/*
+ * Copyright 2016 CurrencyFair - www.currencyfair.com
+ * CSS File - Wordpress Plugin v1.0.0
+ * Author: CurrencyFair
+ */
+
+.currencyfair iframe {
+    border: 1px dashed #CCCCCC;
+    padding: 5px;
+}

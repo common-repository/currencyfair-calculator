@@ -1,0 +1,55 @@
+/*
+ * Copyright 2016 CurrencyFair - www.currencyfair.com
+ * CSS File - Wordpress Plugin v1.0.0
+ * Author: CurrencyFair
+ */
+
+.currencyfair .header {
+    height: 58px;
+    border-bottom: 1px solid #d6e1e7;
+    background: white;
+    margin: 5px 0 15px;
+}
+.currencyfair .header .cf-logo {
+    float: left;
+    background: url(../img/cf-logo.png) 0 0 no-repeat;
+    -webkit-background-size: 190px 33px;
+    background-size: 190px 33px;
+    width: 190px;
+    height: 33px;
+    text-indent: -999px;
+    margin-top: 11px;
+    margin-left: 15px;
+    margin-right: 20px;
+}
+.currencyfair .header .page_title {
+    display: block;
+    float: right;
+    line-height: 58px;
+    font-size: 16px;
+    padding: 0 20px;
+    color: #396172;
+}
+
+.cf_text_align_center {
+    text-align: center;
+}
+.cf_wrap {
+    background-color: white;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -webkit-border-bottom-right-radius: 0;
+    -webkit-border-bottom-left-radius: 0;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-topright: 3px;
+    -moz-border-radius-bottomright: 0;
+    -moz-border-radius-bottomleft: 0;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    border: 1px solid #ced9de;
+    border-width: 0 1px 0;
+    padding: 40px;
+    border: 1px solid #d6e1e7;
+}
